@@ -1,0 +1,31 @@
+{
+  "name": "@theholetruth-org/design-tokens",
+  "version": "1.0.0",
+  "description": "Design tokens package for HOLE Foundation and theholetruth project",
+  "main": "variables.css",
+  "style": "variables.css",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "variables.css",
+    "variables.scss",
+    "variables-map.scss",
+    "tokens.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Theholetruth-org/Design-System.git"
+  },
+  "keywords": [
+    "design-tokens",
+    "design-system",
+    "css",
+    "scss",
+    "tokens"
+  ],
+  "author": "The Hole Foundation",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@theholetruth-org"
+  }
+}
