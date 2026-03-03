@@ -1,0 +1,88 @@
+{
+  "surface": {
+    "background": {
+      "value": "#FFFFFF",
+      "type": "color",
+      "description": "Main background color for light theme"
+    },
+    "foreground": {
+      "value": "#212121",
+      "type": "color",
+      "description": "Main text color for light theme"
+    },
+    "card": {
+      "value": "#F5F5F5",
+      "type": "color"
+    },
+    "border": {
+      "value": "#E0E0E0",
+      "type": "color"
+    }
+  },
+  "text": {
+    "primary": {
+      "value": "#212121",
+      "type": "color"
+    },
+    "secondary": {
+      "value": "#757575",
+      "type": "color"
+    },
+    "disabled": {
+      "value": "#BDBDBD",
+      "type": "color"
+    },
+    "link": {
+      "value": "#2196F3",
+      "type": "color"
+    }
+  },
+  "button": {
+    "primary": {
+      "background": {
+        "value": "#2196F3",
+        "type": "color"
+      },
+      "text": {
+        "value": "#FFFFFF",
+        "type": "color"
+      },
+      "hover": {
+        "value": "#1E88E5",
+        "type": "color"
+      }
+    },
+    "secondary": {
+      "background": {
+        "value": "#9C27B0",
+        "type": "color"
+      },
+      "text": {
+        "value": "#FFFFFF",
+        "type": "color"
+      },
+      "hover": {
+        "value": "#8E24AA",
+        "type": "color"
+      }
+    }
+  },
+  "status": {
+    "success": {
+      "value": "#4CAF50",
+      "type": "color"
+    },
+    "warning": {
+      "value": "#FF9800",
+      "type": "color"
+    },
+    "error": {
+      "value": "#F44336",
+      "type": "color"
+    },
+    "info": {
+      "value": "#2196F3",
+      "type": "color"
+    }
+  }
+}

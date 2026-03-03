@@ -1,0 +1,33 @@
+{
+  "name": "@theholetruth-org/design-system",
+  "version": "1.0.0",
+  "description": "HOLE Foundation and theholetruth project design system with Figma and Token Studio integration",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "node build-tokens.js",
+    "clean": "rm -rf build/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Theholetruth-org/Design-System.git"
+  },
+  "keywords": [
+    "design-system",
+    "design-tokens",
+    "figma",
+    "tokens-studio"
+  ],
+  "author": "The Hole Foundation",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Theholetruth-org/Design-System/issues"
+  },
+  "homepage": "https://github.com/Theholetruth-org/Design-System#readme",
+  "devDependencies": {
+    "style-dictionary": "^4.0.0"
+  },
+  "dependencies": {
+    "@tokens-studio/sd-transforms": "^1.2.8"
+  }
+}

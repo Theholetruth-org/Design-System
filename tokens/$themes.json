@@ -1,0 +1,20 @@
+[
+  {
+    "id": "light",
+    "name": "Light",
+    "selectedTokenSets": {
+      "core": "enabled",
+      "semantic/light": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "dark",
+    "name": "Dark",
+    "selectedTokenSets": {
+      "core": "enabled",
+      "semantic/dark": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  }
+]
