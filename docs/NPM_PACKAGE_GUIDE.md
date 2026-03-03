@@ -16,7 +16,6 @@ design-tokens/              # Package root
 ├── variables.css         # CSS custom properties
 ├── variables.scss        # SCSS variables
 ├── variables-map.scss    # SCSS nested maps
-├── tokens.js            # JavaScript/ES6 module
 └── tokens.json          # Raw JSON tokens
 ```
 
@@ -92,7 +91,6 @@ cd design-tokens
 cp ../build/css/variables.css .
 cp ../build/scss/variables.scss .
 cp ../build/scss/variables-map.scss .
-cp ../build/js/tokens.js .
 cp ../build/json/tokens.json .
 cp ../LICENSE .
 
@@ -177,22 +175,6 @@ yarn add @theholetruth-org/design-tokens
 }
 ```
 
-### JavaScript/TypeScript
-
-```javascript
-import tokens from '@theholetruth-org/design-tokens/tokens.js';
-
-const theme = {
-  colors: {
-    primary: tokens.colors.primary['500'],
-    background: tokens.surface.background,
-  },
-  spacing: {
-    md: tokens.spacing.md,
-  },
-};
-```
-
 ### JSON
 
 ```javascript
@@ -249,14 +231,12 @@ git commit -m "docs: update README [skip ci]"
 | CSS | `variables.css` | CSS custom properties |
 | SCSS | `variables.scss` | SCSS variables |
 | SCSS | `variables-map.scss` | SCSS nested maps |
-| JS | `tokens.js` | ES6 module |
 | JSON | `tokens.json` | Flat JSON object |
 
 ### File Sizes (Approximate)
 
 - CSS: ~10-50 KB
 - SCSS: ~10-50 KB
-- JS: ~5-30 KB
 - JSON: ~5-20 KB
 
 *Sizes vary based on the number of tokens*
